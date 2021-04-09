@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Audio Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="start()">
+
+    <header>
+        <a target="_blank" href="https://www.youtube.com/watch?v=zgezo5I3waM" rel="external"><h1>MC POZE NOS ANOS 80 pt III</h1></a>
+    </header>
+
+    <main>
+        <img src="assets/carreta-furacao-braba.gif" alt="Imagem animada do grupo carreta furacão dançando no meio da pista entre os carros">
+        <audio id="mcPozeDoRodo">
+            <source src="assets/MC POZE NOS ANOS 80 pt III.mp3" type="audio/mpeg">
+        </audio>
+        <div class="audioControls">
+
+            <img class="audioBtn decreasePbRationBtn" src="assets/images/004-left arrow.svg" alt="Decrease PlayBack Ratio Button">
+            
+            <img class="audioBtn incresePbRationBtn" src="assets/images/004-right-arrow.svg" alt="Increase PlayBack Ratio Button">
+
+            <img class="audioBtn playBtn" data-state=0 src="assets/images/072-play button.svg" alt="Play Button">
+
+            <img class="audioBtn stopBtn" src="assets/images/093-stop button.svg" alt="Stop Button">
+
+            <img class="audioBtn" src="assets/images/102-volume.svg" alt="Volume on Button">
+
+            <progress class="musicBar" max="100" value="30"></progress>
+
+            <div class="audioTime" data-counting=false>00:00</div>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+        <p>
+        Não sou o criador dessa musica e nem do Gif, a intenção era apenas criar um player de audio divertido 🙂</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
