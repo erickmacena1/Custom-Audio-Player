@@ -1,13 +1,11 @@
+const music = document.getElementById("mcPozeDoRodo")
+const buttons = Array.from(document.getElementsByClassName("audioBtn"))
+let [decrease, increase, play, stop, volume] = buttons
+let audioCountdown = document.getElementsByClassName("audioTime")[0]
 
 function start()
 {
-    const music = document.getElementById("mcPozeDoRodo")
-    const buttons = Array.from(document.getElementsByClassName("audioBtn"))
-    let [decrease, increase, play, stop, volume] = buttons
-    let audioCountdown = document.getElementsByClassName("audioTime")[0]
     const musicDuration = music.duration
-
-
     music.volume = 0.6
 
     play.addEventListener("click", playBtnClick)
