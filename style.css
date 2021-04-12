@@ -83,6 +83,13 @@ audio
     transform: scale(1.2);
 }
 
+.musicBar
+{
+    width: 130px;
+    margin: 0 4px 0 4px;
+}
+
+
 footer
 {
     text-align: center;

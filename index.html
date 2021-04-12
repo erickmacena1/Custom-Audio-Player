@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Audio Player</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
 </head>
 
 <body onload="start()">
@@ -21,17 +22,19 @@
         </audio>
         <div class="audioControls">
 
-            <img class="audioBtn decreasePbRationBtn" src="assets/images/004-left arrow.svg" alt="Decrease PlayBack Ratio Button">
+            <img class="audioBtn" src="assets/images/004-left arrow.svg" alt="Backwards Button">
             
-            <img class="audioBtn incresePbRationBtn" src="assets/images/004-right-arrow.svg" alt="Increase PlayBack Ratio Button">
+            <img class="audioBtn" src="assets/images/004-right-arrow.svg" alt="Fowards Button">
 
-            <img class="audioBtn playBtn" data-state=0 src="assets/images/072-play button.svg" alt="Play Button">
+            <img class="audioBtn" data-state=0 src="assets/images/072-play button.svg" alt="Play Button">
 
-            <img class="audioBtn stopBtn" src="assets/images/093-stop button.svg" alt="Stop Button">
+            <img class="audioBtn" src="assets/images/093-stop button.svg" alt="Stop Button">
 
-            <img class="audioBtn" src="assets/images/102-volume.svg" alt="Volume on Button">
+            <img class="audioBtn" src="assets/images/099-mute.svg" alt="Volume decrease button">
 
-            <progress class="musicBar" max="100" value="30"></progress>
+            <img class="audioBtn" src="assets/images/102-volume.svg" alt="Volume increase button">
+
+            <progress class="musicBar" max="100" value="0"></progress>
 
             <div class="audioTime" data-counting=false>00:00</div>
 
@@ -41,7 +44,7 @@
     </main>
 
     <footer>
-        <p>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+        <p>Icons made by <a target="_blank" href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a target="_blank" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
         <p>
         Não sou o criador dessa musica e nem do Gif, a intenção era apenas criar um player de audio divertido 🙂</p>
     </footer>
