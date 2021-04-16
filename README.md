@@ -2,7 +2,7 @@
 
 **[👉Teste online clicando aqui👈](https://ericks-first-audio-player.netlify.app/)**
 
-["Imagem do site"](https://github.com/erickmacena1/custom-audio-player/blob/master/github/custom-audio-player-500px.jpg)
+["Imagem do site"](https://github.com/erickmacena1/custom-audio-player/blob/master/github/custom-audio-player-500px.jpg?raw=true)
 
 ## 👨‍💻 Tecnologias utilizadas
 
@@ -13,4 +13,4 @@
 ## Entre em contato
 
 - [👨‍💼 Linkedin](https://www.linkedin.com/in/erick-macena-94aa14160/)
-- [📧 Email Pessoal](erickmacena2@gmail.com)
+- [📧 Email Pessoal](mailto:erickmacena2@gmail.com)
