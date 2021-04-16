@@ -2,7 +2,7 @@
 
 **[👉Teste online clicando aqui👈](https://ericks-first-audio-player.netlify.app/)**
 
-["Imagem do site"](https://github.com/erickmacena1/custom-audio-player/blob/master/github/custom-audio-player-500px.jpg?raw=true)
+!["Imagem do site"](https://github.com/erickmacena1/custom-audio-player/blob/master/github/custom-audio-player-500px.jpg?raw=true)
 
 ## 👨‍💻 Tecnologias utilizadas
 
