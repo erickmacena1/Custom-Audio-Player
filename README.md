@@ -13,4 +13,4 @@
 ## Entre em contato
 
 - [👨‍💼 Linkedin](https://www.linkedin.com/in/erick-macena-94aa14160/)
-- [📧 Email Pessoal](mailto:erickmacena2@gmail.com)
+- 📧 Email Pessoal: erickmacena2@gmail.com
